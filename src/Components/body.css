@@ -1,0 +1,56 @@
+div .snow {
+    position: absolute;
+    color: rgb(28, 190, 166);
+}
+
+div .snow:hover {
+    color: blueviolet;
+    cursor: pointer;
+}
+
+main {
+    background-color: rgb(16, 15, 23);
+    color: rgb(231, 231, 229);
+    height: 89.15vh;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#info .greeting {
+    background-color: rgb(28, 190, 166);
+    border-radius: 20px 20px 20px 0;
+    width: 45%;
+    font-size: 18px;
+    padding: 13px;
+    padding-left: 20px;
+    margin-bottom: 15px;
+}
+.greeting:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 0.6s;
+}
+
+.name, .job {
+    margin-bottom: 10px;
+}
+
+.email, .phone-number {
+    margin-bottom: 5px;
+}
+
+
+.photo img {
+    width: 300px;
+    height: 300px;
+    border: 30px solid black;
+    border-radius: 50%;
+}
+
+
+
+
+
+
